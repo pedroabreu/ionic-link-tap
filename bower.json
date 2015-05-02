@@ -1,0 +1,30 @@
+{
+  "name": "ionic-link-tap",
+  "main": "ionic-link-tap.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pedroabreu/ionic-link-tap",
+  "description": "Ionic directive for handling native and web link taps",
+  "authors": [
+    "Pedro Abreu <pmig.abreu@gmail.com>"
+  ],
+  "keywords": [
+    "ionic",
+    "href",
+    "link",
+    "action",
+    "tap",
+    "native",
+    "ngCordova",
+    "iOS",
+    "Android",
+    "Web App"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
