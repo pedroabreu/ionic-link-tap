@@ -2,8 +2,8 @@
     'use strict';
 
 	angular
-		.module('ionic-link-tap.tapAction',[])
-		.directive('ionicLinkTapAction',ionicLinkTapAction);
+        .module('ionic-link-tap.tapAction',[])
+        .directive('ionicLinkTapAction',ionicLinkTapAction);
 
     ionicLinkTapAction.$inject = ['$timeout','$compile','$window','$ionicPlatform','$cordovaEmailComposer','$cordovaDialogs'];
 
@@ -122,5 +122,5 @@
         function isFunction(callback){
             return typeof callback === 'function' ? true : false;
         }
-	}
+    }
 })();
