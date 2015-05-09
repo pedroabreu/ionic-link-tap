@@ -6,8 +6,8 @@ Evaluates platform (Native or Web) and defines the link tap action according to 
 Tested with the following values:
 
   - 'mailto:info@something.com?subject=&body=' open on tap the native Email client, using the native plugin or from a href call from the browser. If the user doesn't have a email client on the phone it will pop up a error message (Native only)
-  'tel:123123213' uses href of the anchor tab.
-  'http://www.git.com' opens inAppbrowser on native or a call to the stock browser on web app
+  - 'tel:123123213' uses href of the anchor tab.
+  - 'http://www.git.com' opens inAppbrowser on native or a call to the stock browser on web app
 
 ## Installation
 Via bower
